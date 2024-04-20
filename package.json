@@ -1,0 +1,30 @@
+{
+  "name": "johnny",
+  "version": "1.0.0",
+  "description": "this is a personal website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchanthy/jchanthy.git"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "personal",
+    "website",
+    "john",
+    "johnny"
+  ],
+  "author": "John Chanthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchanthy/jchanthy/issues"
+  },
+  "homepage": "https://github.com/jchanthy/jchanthy#readme",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}
