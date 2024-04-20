@@ -67,7 +67,7 @@ text-transform: uppercase;
     padding: 20px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     nav {
         display: block;
         flex-direction: column;

@@ -52,3 +52,9 @@ p.content {
 .card-footer a:hover {
     background: #444;
 }
+
+@media (max-width: 426px) {
+    .card{
+        width: 100%;
+    }
+}
