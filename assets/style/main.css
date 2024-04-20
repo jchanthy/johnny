@@ -5,11 +5,19 @@
 body {
     font-family: 'Noto Sans Khmer', sans-serif;
     font-size: 1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #f3f3f3;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    max-width: 1200px;
 }
 header {
-    background-color: #333;
     color: #fff;
-    padding: 20px;
+    background-color: #333;
 }
 header nav ul {
     list-style: none;
@@ -17,6 +25,7 @@ header nav ul {
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 .logo {
     display: flex;
@@ -45,4 +54,34 @@ header nav ul li a {
 text-decoration: none;
 color: white;
 text-transform: uppercase;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+@media (max-width: 425px) {
+    nav {
+        display: block;
+        flex-direction: column;
+    }
+    header nav ul {
+        flex-direction: column;
+    }
+    .main-section {
+        flex-direction: column;
+    }
+    .my-courses {
+        flex-direction: column;
+    }  
+    .card {
+        width: 100%;
+    }
 }

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="assets/style/main.css" />
-    <link rel="stylesheet" href="assets/style/style.css" />
     <link rel="stylesheet" href="assets/style/about.css" />
 
     <!-- google fonts -->
@@ -15,22 +15,79 @@
     <title>Johnny site</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="logo">
-          <a href="index.html">
-            <img src="" alt="" />
-            <h3 class="title">John's Site</h3>
-          </a>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="logo">
+            <a href="index.html">
+              <img src="" alt="" />
+              <h3 class="title">John's Site</h3>
+            </a>
+          </div>
+          <div class="nav-menu">
+            <ul>
+              <li class=""><a href="index.html">Home</a></li>
+              <li class="active"><a href="about.html">About Me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <div class="main-section">
+        <div class="my-courses">
+          <div class="card html">
+            <h1 class="title">HTML</h1>
+            <p class="content">
+              HTML, which stands for **HyperText Markup Language**, is the
+              standard markup language used to create and structure web pages.
+              It consists of a series of elements represented by tags that tell
+              web browsers how to display content. HTML elements include
+              headings, paragraphs, links, images, and more, allowing for the
+              creation of rich and interactive web experiences. It's the
+              backbone of any website and works in conjunction with CSS and
+              JavaScript to produce the vast array of web pages we see on the
+              internet today¹²³. Source: Conversation with Bing, 4/20/2024
+            </p>
+            <div class="card-footer">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="card css">
+            <h1 class="title">CSS</h1>
+            <p class="content">
+              CSS is a stylesheet language used to describe the presentation of
+              a document written in HTML or XML. It controls the visual aspect
+              of web pages, including layout, colors, fonts, and responsiveness
+              to different screen sizes. CSS enables the separation of content
+              from design, allowing for flexibility and control in the
+              specification of presentation characteristics.
+            </p>
+            <div class="card-footer">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="card javascript">
+            <h1 class="title">JavaScript</h1>
+            <p class="content">
+              JavaScript is a programming language that enables interactive web
+              pages. It is a versatile language that can be used for client-side
+              as well as server-side development. JavaScript allows for dynamic
+              content updates, control multimedia, animate images, and much
+              more, making it an essential part of web applications
+            </p>
+            <div class="card-footer">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
         </div>
-        <div class="nav-menu">
-          <ul>
-            <li class=""><a href="index.html">Home</a></li>
-            <li class="active"><a href="about.html">About Me</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <h1>Welcome to Johnny's Website</h1>
+      </div>
+      <!-- footer -->
+      <div class="footer">
+        <p>&copy; 2024</p>
+        <p class="version">v.1.0</p>
+        <p>dev-by: John Chanthy</p>
+      </div>
+    </div>
   </body>
 </html>
