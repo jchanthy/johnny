@@ -8,4 +8,6 @@
     background: blue;
     color: white;
     padding: 10px;
+    text-decoration: dashed;
+    text-underline: yellow;
 }
